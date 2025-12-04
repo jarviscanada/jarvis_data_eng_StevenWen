@@ -13,7 +13,7 @@ Use markdown code block for your quick-start commands
 - Insert hardware usage data into the DB using host_usage.sh
 - Crontab setup
 
-''' bash
+```bash
 # Start PostgreSQL container
 bash scripts/psql_docker.sh create postgres password
 
@@ -25,5 +25,4 @@ bash scripts/host_info.sh localhost 5432 host_agent postgres password
 
 # Insert usage data
 bash scripts/host_usage.sh localhost 5432 host_agent postgres password
-
-'''
+```
