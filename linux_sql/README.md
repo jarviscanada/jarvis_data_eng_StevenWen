@@ -3,7 +3,6 @@ The Linux Cluster Monitoring Agent collects hardware and real-time resource usag
 PostgreSQL is provisioned via Docker, and Git manages the project?s codebase. Designed for multi-host clusters, each server runs the same lightweight agent, allowing the LCA team to monitor system health, compare node performance, and run analytical SQL queries for capacity planning and operational insights.
 
 # Quick Start
-Use markdown code block for your quick-start commands
 - Start a psql instance using `psql_docker.sh`
 - Create tables using `ddl.sql`
 - Insert hardware specs data into the DB using `host_info.sh`
@@ -35,7 +34,6 @@ crontab -e
 ```
 
 # Implementation
-Discuss how you implement the project.
 ## Architecture
 The monitoring architecture consists of multiple Linux hosts running monitoring agents. Each agent gathers system metrics and sends them to a PostgreSQL instance running inside Docker.
 
@@ -85,10 +83,8 @@ Add the line to run `host_usage.sh` every minute:
 
 ## Database Modeling
 This project uses two relational tables: `host_info` and `host_usage`. The following tables describe the schema and purpose of each field.
-
 ### `host_info`
 This table stores **hardware information** about each host machine.  
-
 
 | Column Name       | Type      | 
 |------------------ |-----------|
@@ -104,9 +100,7 @@ This table stores **hardware information** about each host machine.
 ---
 
 ### `host_usage`
-
 This table stores **usage metrics**, collected every minute via cron.  
-
 
 | Column Name     | Type      | 
 |-----------------|-----------|
@@ -120,7 +114,6 @@ This table stores **usage metrics**, collected every minute via cron.
 ---
 
 # Test
-
 - **Docker Testing** -
 - Ran `create`, `start`, and `stop` commands.
 - Confirmed the container was created once and responded correctly to start/stop operations.
