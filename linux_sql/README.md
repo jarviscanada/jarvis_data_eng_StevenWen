@@ -4,10 +4,10 @@ PostgreSQL is provisioned via Docker, and Git manages the project?s codebase. De
 
 # Quick Start
 Use markdown code block for your quick-start commands
-- Start a psql instance using psql_docker.sh
-- Create tables using ddl.sql
-- Insert hardware specs data into the DB using host_info.sh
-- Insert hardware usage data into the DB using host_usage.sh
+- Start a psql instance using `psql_docker.sh`
+- Create tables using `ddl.sql`
+- Insert hardware specs data into the DB using `host_info.sh`
+- Insert hardware usage data into the DB using `host_usage.sh`
 - Crontab setup
 
 ``` bash
@@ -42,7 +42,6 @@ The monitoring architecture consists of multiple Linux hosts running monitoring 
 ![Architecture](assets/architecture.png)
 
 ## Scripts
-Shell script description and usage (use markdown code block for script usage)
 ### psql_docker.sh
 Manages the PostgreSQL Docker container.
 - Create a PostgreSQL container
@@ -61,25 +60,25 @@ bash ./scripts/psql_docker.sh stop
 ```
 
 ### host_info.sh
-This script collects hardware information from the current host and inserts it into the host_info table in the PostgreSQL database.
+This script collects hardware information from the current host and inserts it into the `host_info` table in the PostgreSQL database.
 **Usage**
 ```bash
 bash ./scripts/host_info.sh psql_host psql_port db_name db_user db_password
 ```
 ### host_usage.sh
-This script collects usage metrics from the current host and inserts them into the host_usage table. It is designed to be executed every minute via cron.
+This script collects usage metrics from the current host and inserts them into the `host_usage` table. It is designed to be executed every minute via cron.
 **Usage**
 ```bash
 bash ./scripts/host_usage.sh psql_host psql_port db_name db_user db_password
 ```
 ### crontab
-cron is used to schedule host_usage.sh so that usage metrics are collected and inserted into the database automatically every minute.
+cron is used to schedule `host_usage.sh` so that usage metrics are collected and inserted into the database automatically every minute.
 **Usage**
 To edit the crontab for the current user:
 ```bash
 crontab -e
 ```
-Add the line to run 'host_usage.sh' every minute:
+Add the line to run `host_usage.sh` every minute:
 ```bash
 * * * * * bash /path/to/host_usage.sh psql_host psql_port host_agent db_user db_password
 ```
