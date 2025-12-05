@@ -114,19 +114,20 @@ This table stores **usage metrics**, collected every minute via cron.
 ---
 
 # Test
-- **Docker Testing** -
-- Ran `create`, `start`, and `stop` commands.
-- Confirmed the container was created once and responded correctly to start/stop operations.
+- **Docker Testing** 
+	- Ran `create`, `start`, and `stop` commands.
+	- Confirmed the container was created once and responded correctly to start/stop operations.
 
-- **DDL Testing** -
-- Confirmed both tables (`host_info`, `host_usage`) were created successfully.
-```bash
-psql -h localhost -U postgres -d host_agent -c "SELECT * FROM host_info LIMIT 5;"
-psql -h localhost -U postgres -d host_agent -c "SELECT * FROM host_usage LIMIT 5;"
-```
-- **Cron Simulation** -
-- Simulated cron by running the script repeatedly.
-- Observed continuous and valid data insertion into `host_usage`.
+- **DDL Testing**
+	- Confirmed both tables (`host_info`, `host_usage`) were created successfully.
+ - 
+	```bash
+	psql -h localhost -U postgres -d host_agent -c "SELECT * FROM host_info LIMIT 5;"
+	psql -h localhost -U postgres -d host_agent -c "SELECT * FROM host_usage LIMIT 5;"
+	```
+- **Cron Simulation**
+	- Simulated cron by running the script repeatedly.
+	- Observed continuous and valid data insertion into `host_usage`.
 
 # Deployment
 The monitoring system was deployed using GitHub, Docker, and cron:
