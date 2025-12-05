@@ -10,8 +10,6 @@ Use markdown code block for your quick-start commands
 - Insert hardware usage data into the DB using host_usage.sh
 - Crontab setup
 
-
-
 ``` bash
 # Create PostgreSQL container
 bash ./scripts/psql_docker.sh create db_user db_password
@@ -41,7 +39,7 @@ Discuss how you implement the project.
 ## Architecture
 The monitoring architecture consists of multiple Linux hosts running monitoring agents. Each agent gathers system metrics and sends them to a PostgreSQL instance running inside Docker.
 
-![Architecture](assets/cluster_architecture.png)
+![Architecture](assets/architecture.png)
 
 ## Scripts
 Shell script description and usage (use markdown code block for script usage)
@@ -50,7 +48,7 @@ Manages the PostgreSQL Docker container.
 - Create a PostgreSQL container
 - Start/stop the container
 - Automatically initialize Docker if not running
-#### Usage
+**Usage**
 ```bash
 # Create and start a new PostgreSQL container
 bash ./scripts/psql_docker.sh create db_user db_password
@@ -64,24 +62,24 @@ bash ./scripts/psql_docker.sh stop
 
 ### host_info.sh
 This script collects hardware information from the current host and inserts it into the host_info table in the PostgreSQL database.
-#### Usage
+**Usage**
 ```bash
 bash ./scripts/host_info.sh psql_host psql_port db_name db_user db_password
 ```
 ### host_usage.sh
 This script collects usage metrics from the current host and inserts them into the host_usage table. It is designed to be executed every minute via cron.
-#### Usage
+**Usage**
 ```bash
 bash ./scripts/host_usage.sh psql_host psql_port db_name db_user db_password
 ```
 ### crontab
 cron is used to schedule host_usage.sh so that usage metrics are collected and inserted into the database automatically every minute.
-#### Usage
+**Usage**
 To edit the crontab for the current user:
 ```bash
 crontab -e
 ```
-Add the line to run host_usage.sh every minute:
+Add the line to run 'host_usage.sh' every minute:
 ```bash
 * * * * * bash /path/to/host_usage.sh psql_host psql_port host_agent db_user db_password
 ```
@@ -124,18 +122,17 @@ This table stores **usage metrics**, collected every minute via cron.
 
 # Test
 
-## 1. Docker Testing
+- **Docker Testing** -
 - Ran `create`, `start`, and `stop` commands.
 - Confirmed the container was created once and responded correctly to start/stop operations.
 
-### 2. DDL Testing
+- **DDL Testing** -
 - Confirmed both tables (`host_info`, `host_usage`) were created successfully.
 ```bash
 psql -h localhost -U postgres -d host_agent -c "SELECT * FROM host_info LIMIT 5;"
 psql -h localhost -U postgres -d host_agent -c "SELECT * FROM host_usage LIMIT 5;"
 ```
-
-## 5. Cron Simulation
+- **Cron Simulation** -
 - Simulated cron by running the script repeatedly.
 - Observed continuous and valid data insertion into `host_usage`.
 
