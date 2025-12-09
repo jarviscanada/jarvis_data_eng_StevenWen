@@ -3,6 +3,45 @@
 # SQL Queries
 
 ###### Table Setup (DDL)
+```sql
+CREATE TABLE cd.members (
+    memid        integer PRIMARY KEY, 
+    surname      varchar(200) NOT NULL, 
+    firstname    varchar(200) NOT NULL, 
+    address      varchar(300) NOT NULL, 
+    zipcode      integer NOT NULL, 
+    telephone    varchar(20) NOT NULL, 
+    recommendedby integer REFERENCES cd.members(memid) ON DELETE SET NULL,
+    joindate     timestamp NOT NULL
+);
+```
+```SQL
+CREATE TABLE cd.bookings (
+  bookid integer NOT NULL, 
+  facid integer NOT NULL, 
+  memid integer NOT NULL, 
+  starttime timestamp NOT NULL, 
+  slots integer NOT NULL, 
+  CONSTRAINT bookings_pk PRIMARY KEY (bookid), 
+  CONSTRAINT fk_bookings_facid FOREIGN KEY (facid) REFERENCES cd.facilities(facid), 
+  CONSTRAINT fk_bookings_memid FOREIGN KEY (memid) REFERENCES cd.members(memid)
+);
+```
+
+```sql
+CREATE TABLE cd.facilities (
+  facid integer NOT NULL, 
+  name character varying(100) NOT NULL, 
+  membercost numeric NOT NULL, 
+  guestcost numeric NOT NULL, 
+  initialoutlay numeric NOT NULL, 
+  monthlymaintenance numeric NOT NULL, 
+  CONSTRAINT facilities_pk PRIMARY KEY (facid)
+);
+
+```
+
+
 
 ###### Question 1: Show all members 
 
