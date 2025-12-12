@@ -1,7 +1,7 @@
 # Introduction
+This project demonstrates practical SQL skills through the design, manipulation, and analysis of a relational database for a country club. The database models has three datasets members, facilities, and bookings, enabling questions to be answered using SQL. The project covers a wide range of SQL concepts, including table creation (DDL), data modification (INSERT, UPDATE, DELETE), filtering, joins, aggregation, window functions, and string operations.
 
 # SQL Queries
-
 ###### Table Setup (DDL)
 ```sql
 CREATE TABLE cd.members (
