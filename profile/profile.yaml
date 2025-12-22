@@ -5,32 +5,46 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_StevenWen
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+summary: >
+    I am a Data Engineer and Software Developer with a strong foundation in computer science,
+    data engineering, and machine learning. I recently completed my Master of Computer Science
+    at McGill University, where I focused on deep learning, NLP, and language-based security.
+    Through internships and research roles, I have built scalable ETL pipelines, real-time
+    streaming systems, and AI-driven analytics solutions using Python, SQL, and Spark, with 
+    exposure to cloud-based data workflows. I am particularly excited about the software industry 
+    because it allows me to transform complex data into impactful systems that support decision-making, 
+    automation, and innovation.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
-    - Java
+    - Python
+    - SQL
     - Linux/Bash
-    - RDBMS/SQL
-    - Agile/Scrum
-    - Git
-  # At least 5 skills
+    - Git/GitHub
+    - Data Engineering (ETL, Pipelines)
+    - Machine Learning (Supervised Learning, Feature Engineering)
+    - Deep Learning (PyTorch, TensorFlow)
+    - NLP & Computer Vision
+
   competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
-  # At least 5 skills
+    - Java
+    - Apache Spark (PySpark)
+    - Hadoop / MapReduce
+    - CI/CD
+    - Airflow
+    - Kafka
+    - Docker
+    - AWS (S3, EMR, RDS, Glue, Lambda)
+
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Spring Boot
+    - MLOps Concepts (Model Versioning, Monitoring)
+    - ML Evaluation & Validation Strategies
+    - Feature Stores
+    - Explainable AI (SHAP, Feature Importance)
 
 # List of Jarvis projects
 jarvis_projects:
@@ -38,41 +52,42 @@ jarvis_projects:
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+    description: >
+      Designed and implemented a Linux-based cluster monitoring system that collects 
+      host hardware specifications and real-time resource usage metrics using Bash
+      scripts and PostgreSQL. Automated data collection with cron jobs and stored
+      results in relational tables for analysis and reporting.
+
   - name: "Core Java Apps"
     git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
-  - name: "Python Data Analytics"
-    git_url: "/python_data_anlytics"
-    description: ""
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
-  - name: "Spark"
-    git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+    description: "In progress. Core Java applications including Twitter API client,
+    JDBC-based data access layer, and a Unix-style grep utility."
+
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
     #project name
-  - name: "Web app for resturant"
-    #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+  - name: "miRNA–Target Interaction Prediction with HyenaDNA"
+    git_url: "https://github.com/Stevenn2333/mirna-target-prediction-hyenadna"
+    description: >
+      Fine-tuned a HyenaDNA sequence model to predict miRNA–target interactions
+      using human miRNA and mRNA 3′ UTR sequence data. Built a preprocessing pipeline
+      to generate positive and negative interaction pairs, standardized variable-length
+      sequences, and evaluated model performance using ROC and AUROC metrics.
+      Compared pretrained and from-scratch HyenaDNA models against a CNN baseline
+      and applied in-silico mutagenesis to analyze seed versus non-seed region importance.
+
+  - name: "Credit Default Prediction with Time-Series Ensembles"
+    git_url: "https://github.com/Stevenn2333/credit-default-prediction-ensembles"
+    description: >
+      Developed and evaluated multiple machine learning and deep learning models
+      to predict customer default risk on large-scale time-series financial data
+      from the American Express Kaggle challenge. Built standalone models using
+      LightGBM, GRU, CNN, and Transformer architectures, applied extensive data
+      preprocessing and feature engineering, and constructed a lightweight
+      ensemble using weighted averaging to improve predictive performance
+      under the AMEX evaluation metric.
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -81,30 +96,56 @@ professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "Nov 2025 - present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: >
+      Built a Linux-based cluster monitoring system using Bash, PostgreSQL, and Docker
+      to collect and store host hardware and resource usage metrics. Currently developing
+      core Java applications to enhance object-oriented design and database integration
+      skills.
+
+  - title: "Data Engineer Intern"
+    company: "Invision Trading Inc."
+    duration: "Jan 2025 - Apr 2025"
+    description: >
+      Designed and implemented SQL-based data extraction and cleansing workflows on
+      AWS RDS, removing duplicates and standardizing schemas. Built reproducible ETL
+      pipelines to prepare model-ready datasets and developed Tableau and Power BI
+      dashboards to deliver actionable business insights to senior stakeholders.
+
+  - title: "Assistant Machine Learning Engineer"
+    company: "McGill University, Department of Pathology"
+    duration: "Apr 2024 - Sep 2024"
+    description: >
+      Built an automated digital pathology pipeline using Python and QuPath to process
+      over 10,000 whole-slide images. Trained YOLOv8 and StarDist models for segmentation
+      and cell-level classification, improving diagnostic consistency and reducing
+      manual workload by more than 60%.
+
+  - title: "Data Engineer Intern"
+    company: "Big-Data Analytics and Management Laboratory"
+    duration: "Oct 2022 - Jun 2023"
+    description: >
+      Built a real-time data ingestion pipeline using Apache Kafka and Apache NiFi
+      to stream and transform high-volume sensor data. Designed publish–subscribe
+      workflows to convert raw CSV data into JSON and ingest it into MongoDB for
+      immediate access and lakeFS for version-controlled data lake storage.
 
 #List of edcuation
-education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
-    # optional
-    awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+education:
+  - school_name: "McGill University"
+    duration: "Sep 2023 - Dec 2024"
+    degree: "Master of Computer Science"
+    department: "Computer Science"
+    awards_achievements:
+      - "Selected coursework in Deep Learning, NLP, and Language-based Security"
+
+  - school_name: "Queen’s University"
+    duration: "Sep 2019 - May 2023"
+    degree: "Bachelor of Science"
+    department: "Computing"
+    awards_achievements:
+      - "Dean's Honour List (2021, 2022)"
 
 #Optional section
 others:
@@ -112,12 +153,7 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "AWS Certified Cloud Practitioner"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Queen's Esports Association"
