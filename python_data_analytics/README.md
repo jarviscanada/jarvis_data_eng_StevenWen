@@ -1,5 +1,4 @@
 # Introduction
-- Describe the business context of this project (please do not copy-paste text from the project kick-off ticket)
 London Gift Shop (LGS) is a UK-based online retailer specializing in giftware products, with a significant portion of its customers being wholesalers. Although the company has operated its e-commerce platform for over a decade, its revenue growth has recently plateaued. To address this challenge, the LGS marketing team aims to better understand customer purchasing behavior and leverage data-driven insights to improve sales and marketing effectiveness.
 
 Due to limited internal IT capacity, LGS engaged Jarvis consulting services to deliver a proof-of-concept (PoC) analytics project. The goal of this project is to analyze historical transaction data and extract actionable insights that can support targeted marketing initiatives. In this project, customer shopping behavior is analyzed through sales trends, order activity, cancellations, customer lifecycle metrics, and RFM (Recency, Frequency, Monetary) segmentation. The results of this analysis enable the LGS marketing team to design targeted campaigns such as personalized emails, promotional events, and customer-specific offers. By identifying high-value customers, new customers, and customers at risk of churn, LGS can more effectively allocate marketing resources and improve customer retention, ultimately driving revenue growth.
@@ -12,7 +11,7 @@ This project follows a layered architecture that separates the LGS web applicati
 
 In this project’s proof-of-concept implementation, the analytics layer is simulated using a PostgreSQL database running in Docker as a data warehouse. A Jupyter Notebook environment is used for data wrangling, analysis, and visualization using Python-based analytics tools. This setup allows historical sales and customer data from the LGS web application to be transformed into actionable insights while remaining decoupled from production systems.
 
-![Architecture](assets/architecture.png)
+![Architecture](assets/Project_Architecture.jpeg)
 
 ## Data Analytics and Wrangling
 The data analytics and wrangling process for this project is implemented in a Jupyter Notebook, which can be found here:
