@@ -52,7 +52,6 @@ public class JavaGrepImp implements JavaGrep{
             files.add(file);
             return;
         }
-
         // if it is dir
         File[] child = file.listFiles();
         // null case
@@ -61,7 +60,6 @@ public class JavaGrepImp implements JavaGrep{
         for (File c : child){
             traverse(c, files);
         }
-
     }
 
     @Override

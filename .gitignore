@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+
+# Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+.config/
+.ipython/
+.jupyter/
+.local/
+.npm/
+
+# Java/Maven
+target/
+*.jar
+out/
+log/
