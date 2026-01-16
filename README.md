@@ -19,7 +19,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_StevenWen]
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/linux_sql)]: Designed and implemented a Linux-based cluster monitoring system that collects  host hardware specifications and real-time resource usage metrics using Bash scripts and PostgreSQL. Automated data collection with cron jobs and stored results in relational tables for analysis and reporting.
 
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/core_java)]: In progress. Core Java applications including Twitter API client, JDBC-based data access layer, and a Unix-style grep utility.
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/core_java)]: Designed and implemented multiple Core Java applications. Built applications using Java 8, Maven, and IntelliJ IDEA, applied object-oriented design principles, interfaces, and exception handling, and leveraged Stream and Lambda APIs for functional-style data processing. Packaged and deployed applications using Docker for consistent runtime execution.
+
+
+**Retail Data Analytics and Wrangling** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/python_data_analytics)]: Designed and implemented a data analytics proof-of-concept for a retail e-commerce business. Built an end-to-end analytics workflow using Python, Pandas, NumPy, and Matplotlib in Jupyter Notebook to clean, transform, and analyze transactional sales data. Performed sales trend analysis, customer activity analysis, cancellation analysis, and RFM-based customer segmentation to generate actionable business insights. Using data warehouse, PostgreSQL and Docker,  enabling structured analytical queries and reproducible data analysis workflows.
+
 
 
 ## Highlighted Projects

@@ -60,9 +60,23 @@ jarvis_projects:
 
   - name: "Core Java Apps"
     git_url: "/core_java"
-    description: "In progress. Core Java applications including Twitter API client,
-    JDBC-based data access layer, and a Unix-style grep utility."
+    description: >
+     Designed and implemented multiple Core Java applications. Built
+     applications using Java 8, Maven, and IntelliJ IDEA, applied object-oriented
+     design principles, interfaces, and exception handling, and leveraged Stream and
+     Lambda APIs for functional-style data processing. Packaged and deployed
+     applications using Docker for consistent runtime execution.
 
+  - name: "Retail Data Analytics and Wrangling"
+    git_url: "/python_data_analytics"
+    description: >
+     Designed and implemented a data analytics proof-of-concept for a retail
+     e-commerce business. Built an end-to-end analytics workflow using Python,
+     Pandas, NumPy, and Matplotlib in Jupyter Notebook to clean, transform, and
+     analyze transactional sales data. Performed sales trend analysis, customer
+     activity analysis, cancellation analysis, and RFM-based customer segmentation
+     to generate actionable business insights. Using data warehouse, PostgreSQL and Docker, 
+     enabling structured analytical queries and reproducible data analysis workflows.
 
 # List of personal or academic projects
 # Feel free to add more projects
