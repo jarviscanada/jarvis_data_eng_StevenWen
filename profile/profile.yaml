@@ -61,11 +61,10 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description: >
-     Designed and implemented multiple Core Java applications. Built
-     applications using Java 8, Maven, and IntelliJ IDEA, applied object-oriented
-     design principles, interfaces, and exception handling, and leveraged Stream and
-     Lambda APIs for functional-style data processing. Packaged and deployed
-     applications using Docker for consistent runtime execution.
+     - Grep App: Implemented a grep utility in Core Java that recursively 
+     searches large file systems using regular expressions, streams matching lines to 
+     output files, and supports memory-efficient processing with Java Streams, Maven packaging, 
+     logging, and Docker-based deployment.
 
   - name: "Retail Data Analytics and Wrangling"
     git_url: "/python_data_analytics"
