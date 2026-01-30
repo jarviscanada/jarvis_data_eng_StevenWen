@@ -1,13 +1,13 @@
 # Steven Wen . Jarvis Consulting
 
-I am a Data Engineer and Software Developer with a strong foundation in computer science, data engineering, and machine learning. I recently completed my Master of Computer Science at McGill University, where I focused on deep learning, NLP, and language-based security. Through internships and research roles, I have built scalable ETL pipelines, real-time streaming systems, and AI-driven analytics solutions using Python, SQL, and Spark, with  exposure to cloud-based data workflows. I am particularly excited about the software industry  because it allows me to transform complex data into impactful systems that support decision-making,  automation, and innovation.
+I am a Data Engineer with a strong foundation in computer science, data engineering, and applied machine learning. I recently completed my Master of Computer Science at McGill University, where I focused on deep learning, NLP, and language-based security. Through internships and research roles, I have built scalable ETL pipelines, real-time data processing workflows, and analytics-ready datasets using Python, SQL, and Databricks, with hands-on experience in containerized and cloud-based data environments. I am motivated by work that transforms complex, messy data into reliable systems that support analysis, modeling, and data-driven decision-making.
 
 
 ## Skills
 
 **Proficient:** Python, SQL, Linux/Bash, Git/GitHub, Data Engineering (ETL, Pipelines), Machine Learning (Supervised Learning, Feature Engineering), Deep Learning (PyTorch, TensorFlow), NLP & Computer Vision
 
-**Competent:** Java, Apache Spark (PySpark), Hadoop / MapReduce, CI/CD, Airflow, Kafka, Docker, AWS (S3, EMR, RDS, Glue, Lambda)
+**Competent:** Databricks, Java, Apache Spark (PySpark), Hadoop / MapReduce, CI/CD, Airflow, Kafka, Docker, AWS (S3, EMR, RDS, Glue, Lambda)
 
 **Familiar:** Spring Boot, MLOps Concepts (Model Versioning, Monitoring), ML Evaluation & Validation Strategies, Feature Stores, Explainable AI (SHAP, Feature Importance)
 
@@ -19,7 +19,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_StevenWen]
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/linux_sql)]: Designed and implemented a Linux-based cluster monitoring system that collects  host hardware specifications and real-time resource usage metrics using Bash scripts and PostgreSQL. Automated data collection with cron jobs and stored results in relational tables for analysis and reporting.
 
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/core_java)]: - Grep App: Implemented a grep utility in Core Java that recursively  searches large file systems using regular expressions, streams matching lines to  output files, and supports memory-efficient processing with Java Streams, Maven packaging,  logging, and Docker-based deployment.
+**Java Grep Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/core_java/grep)]: Implemented a grep application in Core Java that recursively  searches large file systems using regular expressions, streams matching lines to  output files, and supports memory-efficient processing with Java Streams, Maven packaging,  logging, and Docker-based deployment.
 
 
 **Retail Data Analytics and Wrangling** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/python_data_analytics)]: Designed and implemented a data analytics proof-of-concept for a retail e-commerce business. Built an end-to-end analytics workflow using Python, Pandas, NumPy, and Matplotlib in Jupyter Notebook to clean, transform, and analyze transactional sales data. Performed sales trend analysis, customer activity analysis, cancellation analysis, and RFM-based customer segmentation to generate actionable business insights. Using data warehouse, PostgreSQL and Docker,  enabling structured analytical queries and reproducible data analysis workflows.
@@ -54,7 +54,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_StevenWen]
 - Selected coursework in Deep Learning, NLP, and Language-based Security
 
 **Queen’s University (Sep 2019 - May 2023)**, Bachelor of Science, Computing
-- Dean's Honour List (2021, 2022)
+- Dean's Honour List (2021, 2022, 2023)
 
 
 ## Miscellaneous
