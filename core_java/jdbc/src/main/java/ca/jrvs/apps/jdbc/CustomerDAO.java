@@ -1,6 +1,6 @@
-package com.frankmoley.lil.jdbc;
+package ca.jrvs.apps.jdbc;
 
-import com.frankmoley.lil.jdbc.util.DataAccessObject;
+import ca.jrvs.apps.jdbc.util.DataAccessObject;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
