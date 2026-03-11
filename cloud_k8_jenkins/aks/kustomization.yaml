@@ -1,0 +1,11 @@
+secretGenerator:
+  - name: trading-app
+    literals:
+      - user=postgres
+      - password=password
+      - FINNHUB_TOKEN=d6bkq3pr01qp4lhvr7r0d6bkq3pr01qp4lhvr7rg
+      - FINAGE_TOKEN=6a7U6DRQYHEYR05MYIQJ08TP8DPOEEX0
+
+resources:
+  - psql-deployment.yaml
+  - trading-deployment.yaml

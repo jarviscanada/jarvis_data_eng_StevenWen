@@ -19,7 +19,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_StevenWen]
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/linux_sql)]: Designed and implemented a Linux-based cluster monitoring system that collects  host hardware specifications and real-time resource usage metrics using Bash scripts and PostgreSQL. Automated data collection with cron jobs and stored results in relational tables for analysis and reporting.
 
 
-**Java Grep Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/core_java/grep)]: Implemented a grep application in Core Java that recursively  searches large file systems using regular expressions, streams matching lines to  output files, and supports memory-efficient processing with Java Streams, Maven packaging,  logging, and Docker-based deployment.
+**Java Grep Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/core_java)]: Implemented a grep application in Core Java that recursively  searches large file systems using regular expressions, streams matching lines to  output files, and supports memory-efficient processing with Java Streams, Maven packaging,  logging, and Docker-based deployment.
 
 
 **Retail Data Analytics and Wrangling** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_StevenWen/tree/master/python_data_analytics)]: Designed and implemented a data analytics proof-of-concept for a retail e-commerce business. Built an end-to-end analytics workflow using Python, Pandas, NumPy, and Matplotlib in Jupyter Notebook to clean, transform, and analyze transactional sales data. Performed sales trend analysis, customer activity analysis, cancellation analysis, and RFM-based customer segmentation to generate actionable business insights. Using data warehouse, PostgreSQL and Docker,  enabling structured analytical queries and reproducible data analysis workflows.
@@ -37,9 +37,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_StevenWen]
 ## Professional Experiences
 
 **Software Developer, Jarvis (Nov 2025 - present)**: Built a Linux-based cluster monitoring system using Bash, PostgreSQL, and Docker to collect and store host hardware and resource usage metrics. Currently developing core Java applications to enhance object-oriented design and database integration skills.
-
-
-**Data Engineer Intern, Invision Trading Inc. (Jan 2025 - Apr 2025)**: Designed and implemented SQL-based data extraction and cleansing workflows on AWS RDS, removing duplicates and standardizing schemas. Built reproducible ETL pipelines to prepare model-ready datasets and developed Tableau and Power BI dashboards to deliver actionable business insights to senior stakeholders.
 
 
 **Assistant Machine Learning Engineer, McGill University, Department of Pathology (Apr 2024 - Sep 2024)**: Built an automated digital pathology pipeline using Python and QuPath to process over 10,000 whole-slide images. Trained YOLOv8 and StarDist models for segmentation and cell-level classification, improving diagnostic consistency and reducing manual workload by more than 60%.
