@@ -1,0 +1,23 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Maven
+target/
+dependency-reduced-pom.xml
+
+# Logs
+log/
+
+# OS
+.DS_Store
+
+# Python cache (outside this project, but showing up)
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+.config/
+.ipython/
+.jupyter/
+.local/
+.npm/
