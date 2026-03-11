@@ -40,7 +40,7 @@
     },
     {
       "description": "Implemented a grep application in Core Java that recursively  searches large file systems using regular expressions, streams matching lines to  output files, and supports memory-efficient processing with Java Streams, Maven packaging,  logging, and Docker-based deployment.\n",
-      "git_url": "/core_java/grep",
+      "git_url": "/core_java",
       "name": "Java Grep Apps"
     },
     {
@@ -70,12 +70,6 @@
       "description": "Built a Linux-based cluster monitoring system using Bash, PostgreSQL, and Docker to collect and store host hardware and resource usage metrics. Currently developing core Java applications to enhance object-oriented design and database integration skills.\n",
       "duration": "Nov 2025 - present",
       "title": "Software Developer"
-    },
-    {
-      "company": "Invision Trading Inc.",
-      "description": "Designed and implemented SQL-based data extraction and cleansing workflows on AWS RDS, removing duplicates and standardizing schemas. Built reproducible ETL pipelines to prepare model-ready datasets and developed Tableau and Power BI dashboards to deliver actionable business insights to senior stakeholders.\n",
-      "duration": "Jan 2025 - Apr 2025",
-      "title": "Data Engineer Intern"
     },
     {
       "company": "McGill University, Department of Pathology",

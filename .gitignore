@@ -4,6 +4,7 @@
 # IDE
 .idea/
 *.iml
+.vscode/
 
 # Python/Jupyter
 __pycache__/
@@ -20,3 +21,6 @@ target/
 *.jar
 out/
 log/
+
+# Local tooling
+.github/java-upgrade/

@@ -1,0 +1,52 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: trading
+  labels:
+    app: trading
+spec:
+  ports:
+    - port: 5000
+      targetPort: 5000
+  selector:
+    app: trading-app
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: trading-appS
+    metadata:
+      labels:
+        app: trading-app
+    spec:
+      containers:
+        - image: stevenw233/trading-app
+          imagePullPolicy: IfNotPresent
+          name: trading-app-dev
+          env:
+            - name: PSQL_URL
+              value: jdbc:postgresql://trading-psql-dev:5432/jrvstrading
+            - name: PSQL_USER
+              valueFrom:
+                secretKeyRef:
+                  name: trading-app
+                  key: user
+            - name: PSQL_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: trading-app
+                  key: password
+            - name: FINNHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: trading-app
+                  key: FINNHUB_TOKEN
+            - name: FINAGE_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: trading-app
+                  key: FINAGE_TOKEN
+          ports:
+            - containerPort: 5000
+              name: trading
