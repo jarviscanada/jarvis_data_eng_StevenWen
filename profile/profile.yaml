@@ -119,6 +119,14 @@ professional_experience:
       core Java applications to enhance object-oriented design and database integration
       skills.
 
+  - title: "Data Analyst"
+    company: "VS Consulting Group"
+    duration: "Apr 2025 - Sep 2025"
+    description: >
+      Analyzed customer event and transaction records to drive marketing and growth insights. 
+      Built validated analytical datasets with SQL and BigQuery, and used Python for segmentation, 
+      cohort analysis, and RFM modeling. Developed Looker Studio dashboards tracking key KPIs to support 
+      performance reviews and campaign optimization.
 
   - title: "Assistant Machine Learning Engineer"
     company: "McGill University, Department of Pathology"
