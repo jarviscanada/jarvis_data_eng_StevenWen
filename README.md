@@ -39,6 +39,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_StevenWen]
 **Software Developer, Jarvis (Nov 2025 - present)**: Built a Linux-based cluster monitoring system using Bash, PostgreSQL, and Docker to collect and store host hardware and resource usage metrics. Currently developing core Java applications to enhance object-oriented design and database integration skills.
 
 
+**Data Analyst, VS Consulting Group (Apr 2025 - Sep 2025)**: Analyzed customer event and transaction records to drive marketing and growth insights.  Built validated analytical datasets with SQL and BigQuery, and used Python for segmentation,  cohort analysis, and RFM modeling. Developed Looker Studio dashboards tracking key KPIs to support  performance reviews and campaign optimization.
+
+
 **Assistant Machine Learning Engineer, McGill University, Department of Pathology (Apr 2024 - Sep 2024)**: Built an automated digital pathology pipeline using Python and QuPath to process over 10,000 whole-slide images. Trained YOLOv8 and StarDist models for segmentation and cell-level classification, improving diagnostic consistency and reducing manual workload by more than 60%.
 
 

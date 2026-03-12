@@ -72,6 +72,12 @@
       "title": "Software Developer"
     },
     {
+      "company": "VS Consulting Group",
+      "description": "Analyzed customer event and transaction records to drive marketing and growth insights.  Built validated analytical datasets with SQL and BigQuery, and used Python for segmentation,  cohort analysis, and RFM modeling. Developed Looker Studio dashboards tracking key KPIs to support  performance reviews and campaign optimization.\n",
+      "duration": "Apr 2025 - Sep 2025",
+      "title": "Data Analyst"
+    },
+    {
       "company": "McGill University, Department of Pathology",
       "description": "Built an automated digital pathology pipeline using Python and QuPath to process over 10,000 whole-slide images. Trained YOLOv8 and StarDist models for segmentation and cell-level classification, improving diagnostic consistency and reducing manual workload by more than 60%.\n",
       "duration": "Apr 2024 - Sep 2024",
